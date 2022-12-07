@@ -1,5 +1,7 @@
 package me.nillerusr;
 
+import me.sanyasho.junkengine.R;
+
 import android.content.*;
 import java.io.*;
 import android.os.IBinder;
@@ -11,8 +13,6 @@ import android.app.Service;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.RemoteViews;
-
-import com.valvesoftware.source.R;
 
 public class UpdateService extends Service {
 	NotificationManager nm;

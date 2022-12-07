@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import com.valvesoftware.source.R;
+import me.sanyasho.junkengine.R;
 
 import java.io.File;
 import java.io.FileWriter;

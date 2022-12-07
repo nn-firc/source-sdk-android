@@ -1,4 +1,3 @@
 #!/bin/bash
-
-export ANDROID_HOME=/home/jusic/android-sdk
-ant debug
+export PATH="$JAVA_HOME/bin:$PATH"
+ant release

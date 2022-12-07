@@ -1,9 +1,10 @@
 package me.nillerusr;
 
+import me.sanyasho.junkengine.R;
+
 import android.content.*;
 import java.io.*;
 import java.net.*;
-import com.valvesoftware.source.R;
 import android.os.AsyncTask;
 import java.net.URL;
 import java.net.URLConnection;
@@ -14,8 +15,8 @@ import android.util.Log;
 import me.nillerusr.UpdateService;
 
 public class UpdateSystem extends AsyncTask<String, Integer, String> {
-	private static final String git_url = "https://raw.githubusercontent.com/nillerusr/srceng-deploy";
-	private static final String app = "srceng-debug.apk";
+	private static final String git_url = "";
+	private static final String app = "";
 
 	String deploy_branch, last_commit;
 	Context mContext;
