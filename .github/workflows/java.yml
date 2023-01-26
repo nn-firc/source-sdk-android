@@ -16,7 +16,7 @@ jobs:
       run: |
         sudo apt-get update && sudo apt install -y make openjdk-8-jdk openjdk-8-jre ant-contrib python3-requests python3-pip
         mkdir $HOME/.android
-        cp android.keystore $HOME/.android
+        cp debug.keystore $HOME/.android
         JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/ ANDROID_HOME=android-sdk/ ant release
     - uses: actions/upload-artifact@v3
       with:
