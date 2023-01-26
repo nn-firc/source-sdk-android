@@ -208,7 +208,7 @@ public class LauncherActivity extends Activity {
 		String last_commit = getResources().getString(R.string.last_commit);
 
 		cmdArgs.setText(mPref.getString("argv", "-console"));
-		GamePath.setText(mPref.getString("gamepath", getDefaultDir() + "/srceng"));
+		GamePath.setText(mPref.getString("gamepath", getDefaultDir() + "/csgo"));
 		EnvEdit.setText(mPref.getString("env", "LIBGL_USEVBO=0"));
 
 //		useVolumeButtons.setChecked(mPref.getBoolean("use_volume_buttons", false));
