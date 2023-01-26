@@ -1,6 +1,6 @@
 package org.libsdl.app;
 
-import me.nn-firc.csgo.R;
+import me.nnfirc.csgo.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

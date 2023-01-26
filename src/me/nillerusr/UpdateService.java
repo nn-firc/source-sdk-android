@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import me.nn-firc.csgo.R;
+import me.nnfirc.csgo.R;
 
 import android.content.*;
 import java.io.*;
