@@ -66,10 +66,10 @@ public class ValveActivity2 { // not activity, i am lazy to change native method
 	static public boolean preInit(Context context, Intent intent)
 	{
 		mPref = context.getSharedPreferences("mod", 0);
-		String gamepath = mPref.getString("gamepath", LauncherActivity.getDefaultDir() + "/srceng");
+		String gamepath = mPref.getString("gamepath", LauncherActivity.getDefaultDir() + "/csgo");
 		String gamedir = intent.getStringExtra("gamedir");
 		if( gamedir == null || gamedir.isEmpty() )
-			gamedir = "hl2";
+			gamedir = "csgo";
 
 		if( !findGameinfo(gamepath) || !isModGameinfoExists(gamepath+"/"+gamedir) )
 			return false;
@@ -80,7 +80,7 @@ public class ValveActivity2 { // not activity, i am lazy to change native method
 	static public void initNatives(Context context, Intent intent) {
 		mPref = context.getSharedPreferences("mod", 0);
 		ApplicationInfo appinf = context.getApplicationInfo();
-		String gamepath = mPref.getString("gamepath", LauncherActivity.getDefaultDir() + "/srceng");
+		String gamepath = mPref.getString("gamepath", LauncherActivity.getDefaultDir() + "/csgo");
 
 		String argv = intent.getStringExtra("argv");
 		String gamedir = intent.getStringExtra("gamedir");
@@ -89,7 +89,7 @@ public class ValveActivity2 { // not activity, i am lazy to change native method
 		Log.v("SRCAPK", "argv="+argv);
 
 		if( gamedir == null || gamedir.isEmpty() )
-			gamedir = "hl2";
+			gamedir = "csgo";
 
 		if( argv == null || argv.isEmpty() )
 			argv = mPref.getString("argv", "-console");
