@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import me.sanyasho.junkengine.R;
+import me.nnfirc.csgo.R;
 
 import android.content.*;
 import java.io.*;
