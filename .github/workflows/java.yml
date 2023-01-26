@@ -1,0 +1,24 @@
+name: Build apk
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: |
+        sudo apt-get update && sudo apt install -y make openjdk-8-jdk openjdk-8-jre ant-contrib python3-requests python3-pip
+        mkdir $HOME/.android
+        cp android.keystore $HOME/.android
+        JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/ ANDROID_HOME=android-sdk/ ant release
+    - uses: actions/upload-artifact@v3
+      with:
+            name: Release
+            path: bin/csgo-release-unsigned.apk
