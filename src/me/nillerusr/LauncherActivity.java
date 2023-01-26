@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import me.sanyasho.junkengine.R;
+import me.nn-firc.csgo.R;
 
 import java.io.File;
 import java.io.FileWriter;
