@@ -2,7 +2,7 @@
 <resources>
     <string name="last_commit" />
     <string name="deploy_branch" />
-    <string name="srceng_app_name">反恐精英：全球攻势</string>
+    <string name="srceng_app_name">反恐精英:全球攻势</string>
     <string name="srceng_launcher_about">关于</string>
     <string name="srceng_launcher_about_text">"
 Thanks to nillerusr and jusic for port
