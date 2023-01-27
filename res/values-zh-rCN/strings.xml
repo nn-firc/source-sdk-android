@@ -15,18 +15,18 @@ Donate: https://new.donatepay.ru/@nillerusr
 BTC(Bitcoin): bc1qnjq92jj9uqjtafcx2zvnwd48q89hgtd6w8a6na
 XMR(Monero): 48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4itsGh6EzNTzBty6ZDDevApCFNpsJg"</string>
     <string name="srceng_launcher_launch">启动</string>
-    <string name="srceng_launcher_ok">好吧</string>
-    <string name="srceng_launcher_set">设定</string>
+    <string name="srceng_launcher_ok">好</string>
+    <string name="srceng_launcher_set">选择</string>
     <string name="srceng_launcher_error">错误</string>
     <string name="srceng_launcher_error_test_write">测试写失败,所有文件将存储在</string>
-    <string name="srceng_launcher_error_no_permission">没有权限游戏就不会工作了</string>
-    <string name="srceng_launcher_error_find_gameinfo">找不到游戏资源，你设置的路径吗？</string>
-    <string name="srceng_launcher_command_args">命令行参数</string>
+    <string name="srceng_launcher_error_no_permission">没有权限游戏无法运行</string>
+    <string name="srceng_launcher_error_find_gameinfo">找不到游戏资源</string>
+    <string name="srceng_launcher_command_args">参数</string>
     <string name="srceng_launcher_env">环境变量</string>
-    <string name="srceng_launcher_game_path">游戏游戏目录的路径</string>
-    <string name="srceng_launcher_set_game_path">设置游戏目录</string>
-    <string name="srceng_launcher_game_menu">游戏</string>
-    <string name="srceng_launcher_check_updates">检查更新</string>
-    <string name="srceng_dir_choice_btn">设置当前目录</string>
-    <string name="srceng_update">有新的更新！</string>
+    <string name="srceng_launcher_game_path">游戏路径</string>
+    <string name="srceng_launcher_set_game_path">设置游戏路径</string>
+    <string name="srceng_launcher_game_menu"></string>
+    <string name="srceng_launcher_check_updates"></string>
+    <string name="srceng_dir_choice_btn">设置当前为目录</string>
+    <string name="srceng_update"></string>
 </resources>
